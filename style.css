@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    flex-direction: row;
+}
+.main{
+    width: 1800px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.number{
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    line-height: 200px;
+    border: 8px solid red;
+    background:black;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 30px rgba(44, 216, 76, 0.5);
+}
